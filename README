@@ -1,0 +1,5 @@
+
+
+git clone https://github.com/collinbarnwell/bashstuff.git .bashstuff
+
+echo "source ~/.bashstuff/bashstuff.bash" >> ~/.bashrc
