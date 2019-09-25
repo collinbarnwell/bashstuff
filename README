@@ -1,4 +1,4 @@
-
+sudo apt-get install inotify-tools
 
 git clone https://github.com/collinbarnwell/bashstuff.git .bashstuff
 
