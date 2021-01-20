@@ -38,3 +38,6 @@ alias makenote='export FILE=~/notes/note-$(date "+%F").txt ; touch "$FILE" ; ema
 # fi
 
 # done
+
+alias k="kubectl"
+alias e="emacs"
