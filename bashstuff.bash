@@ -40,4 +40,4 @@ alias makenote='export FILE=~/notes/note-$(date "+%F").txt ; touch "$FILE" ; ema
 # done
 
 alias k="kubectl"
-alias e="emacs"
+e() { emacs "$@" & }
