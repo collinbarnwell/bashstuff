@@ -41,3 +41,5 @@ alias makenote='export FILE=~/notes/note-$(date "+%F").txt ; touch "$FILE" ; ema
 
 alias k="kubectl"
 e() { emacs "$@" & }
+
+export ctop=collinbarnwell@beech.c.googlers.com
