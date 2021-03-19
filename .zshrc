@@ -107,3 +107,7 @@ e() { emacs "$@" & }
 export ctop=collinbarnwell@beech.c.googlers.com
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source ~/.bashstuff/bashstuff.sh
+
+source /etc/bash_completion.d/hgd
