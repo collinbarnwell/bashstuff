@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/collinbarnwell/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,3 +111,10 @@ export ctop=collinbarnwell@beech.c.googlers.com
 source ~/.bashstuff/bashstuff.sh
 
 source /etc/bash_completion.d/hgd
+
+# Source the common XManager bashrc, only adds convenience functions for
+# XManager.
+if [ -r /google/data/ro/teams/dmgi/configs/google_xm_bashrc ] ; then
+  source /google/data/ro/teams/dmgi/configs/google_xm_bashrc
+fi
+EOF
