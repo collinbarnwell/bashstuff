@@ -42,3 +42,8 @@ alias k="kubectl"
 e() { emacs "$@" & }
 
 export ctop=collinbarnwell@beech.c.googlers.com
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+alias gsu="git submodule update --init --recursive"
