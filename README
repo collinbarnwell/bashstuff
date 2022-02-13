@@ -10,6 +10,9 @@ git config --global alias.rect "commit --amend --no-edit"
 git clone https://github.com/collinbarnwell/bashstuff.git .bashstuff
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# If zsh still isn't default, may need to edit gnome terminal settings
+# https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html
+
 echo "source ~/.bashstuff/bashstuff.sh" >> ~/.bashrc
 echo "source ~/.bashstuff/bashstuff.sh" >> ~/.zshrc
 
