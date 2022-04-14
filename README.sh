@@ -25,6 +25,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 # emacs
+sudo apt-get install -y build-essential texinfo libx11-dev libxpm-dev libjpeg-dev \
+  libpng-dev libgif-dev libtiff-dev libgtk2.0-dev libncurses-dev automake autoconf
 wget http://ftp.wayne.edu/gnu/emacs/emacs-27.2.tar.xz
 tar xvf emacs-27.2.tar.xz
 cd emacs-27.2
