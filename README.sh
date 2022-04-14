@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 sudo apt-get update -y
 sudo apt-get install -y git zsh curl
@@ -30,6 +31,9 @@ cd emacs-27.2
 ./configure
 make
 make install
+cd ..
+rm -rf emacs-27.2
+rm emacs-27.2.tar.xz
 sudo apt-get install -y ripgrep fd-find
 
 mkdir -p ~/.config/systemd/user/
