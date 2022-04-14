@@ -23,10 +23,14 @@ echo "source ~/.bashstuff/bashstuff.sh" >> ~/.zshrc
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
-# Doom emacs
-sudo add-apt-repository ppa:kelleyk/emacs
-sudo apt-get update -y
-sudo apt-get install -y emacs27 ripgrep fd-find
+# emacs
+wget http://ftp.wayne.edu/gnu/emacs/emacs-27.2.tar.xz
+tar xvf emacs-27.2.tar.xz
+cd emacs-27.2
+./configure
+make
+make install
+sudo apt-get install -y ripgrep fd-find
 
 mkdir -p ~/.config/systemd/user/
 cat <<EOT >> ~/.config/systemd/user/emacs.service
