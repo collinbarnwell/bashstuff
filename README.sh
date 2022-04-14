@@ -1,5 +1,11 @@
 #!/bin/bash
 set -ex
+#
+# wget https://github.com/collinbarnwell/bashstuff/edit/master/README.sh
+# chmod +x ./README.sh
+# ./README.sh
+# DO NOT USE SUDO
+#
 
 sudo apt-get update -y
 sudo apt-get install -y git zsh curl
@@ -58,5 +64,5 @@ EOT
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 
-sudo systemctl enable --user emacs --now
-sudo systemctl start --user emacs
+systemctl enable --user emacs --now
+systemctl start --user emacs
