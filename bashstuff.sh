@@ -13,3 +13,5 @@ export ctop=collinbarnwell@beech.c.googlers.com
 alias gsu="git submodule update --init --recursive"
 
 export PATH=$PATH:$HOME/go/bin
+
+DISABLE_UPDATE_PROMPT=true
