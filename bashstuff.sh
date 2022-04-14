@@ -14,4 +14,4 @@ alias gsu="git submodule update --init --recursive"
 
 export PATH=$PATH:$HOME/go/bin
 
-DISABLE_UPDATE_PROMPT=true
+DISABLE_UPDATE_PROMPT=true  # For oh-my-zsh
