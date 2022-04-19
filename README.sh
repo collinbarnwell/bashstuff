@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 #
-# wget https://github.com/collinbarnwell/bashstuff/edit/master/README.sh
+# wget https://raw.githubusercontent.com/collinbarnwell/bashstuff/master/README.sh
 # chmod +x ./README.sh
 # ./README.sh
 # DO NOT USE SUDO
