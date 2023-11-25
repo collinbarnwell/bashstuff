@@ -26,6 +26,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 echo "source ~/.bashstuff/bashstuff.sh" >> ~/.bashrc
 echo "source ~/.bashstuff/bashstuff.sh" >> ~/.zshrc
 
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Install fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
